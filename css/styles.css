@@ -343,7 +343,6 @@ main{ counter-reset: section; }
 @media (max-width: 860px){
   .nav-links{ display:none; }
   .nav-toggle{ display:flex; }
-  .resume-btn{ display:none; }
   .about-grid{ grid-template-columns: 1fr; }
   .work-grid{ grid-template-columns: 1fr; }
 }
