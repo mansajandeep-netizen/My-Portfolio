@@ -50,6 +50,21 @@ button{ font: inherit; }
   background-size: 42px 42px;
 }
 
+/* ===================== Photo backdrop (circuit board) ===================== */
+.photo-bg{
+  position:absolute; inset:0; z-index:0; pointer-events:none;
+  background-image:
+    linear-gradient(180deg, var(--bg) 0%, rgba(10,15,13,.94) 22%, rgba(10,15,13,.9) 60%, var(--bg) 100%),
+    url('../assets/img/circuit-bg.jpg');
+  background-size: cover, cover;
+  background-position: center, center 40%;
+  background-repeat: no-repeat, no-repeat;
+  filter: saturate(.4) brightness(.75);
+}
+.contact-box .photo-bg{
+  background-position: center, center 55%;
+}
+
 /* ===================== Background shapes / glow ===================== */
 .blob{
   position:absolute; border-radius:50%; filter: blur(80px); opacity:.55; z-index:0;
