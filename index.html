@@ -44,10 +44,16 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="photo-bg"></div>
-    <div class="grid-texture"></div>
+    <div class="video-bg">
+      <video class="video-bg-el" id="heroVideoBg" autoplay muted loop playsinline>
+        <source src="assets/video/motherboard-bg.mp4" type="video/mp4">
+      </video>
+      <div class="video-bg-fade"></div>
+    </div>
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
+    <div class="blob blob-coral"></div>
+    <div class="blob blob-green"></div>
     <div class="hero-spotlight" id="heroSpotlight"></div>
     <div class="container hero-inner">
       <p class="pill eyebrow reveal"><span class="dot"></span>Grande Prairie, AB — open to work</p>
@@ -130,6 +136,15 @@
 
   <!-- EXPERIENCE -->
   <section class="section" id="experience">
+    <div class="video-bg">
+      <video class="video-bg-el" autoplay muted loop playsinline>
+        <source src="assets/video/chip-bg.mp4" type="video/mp4">
+      </video>
+      <div class="video-bg-fade"></div>
+    </div>
+    <div class="blob exp-blob-coral"></div>
+    <div class="blob exp-blob-sun"></div>
+    <div class="blob exp-blob-violet"></div>
     <div class="container">
       <p class="kicker reveal">Experience</p>
       <h2 class="reveal">Where I've worked</h2>
@@ -235,6 +250,13 @@
           <div class="body">
             <h3>Blue Sky RV Park</h3>
             <p>A course project that became a real site for an RV park outside Grande Prairie.</p>
+            <ul class="lab-list">
+              <li>Semantic HTML5 structure (header, nav, main, section, footer) across six pages</li>
+              <li>Responsive, mobile-first layout that adapts across breakpoints</li>
+              <li>DOM-driven interactive nav menu and pricing components</li>
+              <li>Optimized image assets for a fast-loading photo gallery</li>
+              <li>Clean separation of structure, styling, and behavior (HTML/CSS/JS)</li>
+            </ul>
             <div class="chip-row">
               <span class="chip">HTML</span>
               <span class="chip">CSS</span>
@@ -301,6 +323,8 @@
         <div class="grid-texture"></div>
         <div class="blob blob-3"></div>
         <div class="blob blob-4"></div>
+        <div class="blob blob-green"></div>
+        <div class="blob blob-sun"></div>
         <h2>Let's build something.</h2>
         <p>Open to IT support, full-stack development, and cybersecurity/systems roles.</p>
         <div class="hero-cta">

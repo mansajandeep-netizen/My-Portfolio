@@ -4,6 +4,12 @@
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  /* ---------- Hero background video: play slower ---------- */
+  var heroVideoBg = document.getElementById("heroVideoBg");
+  if (heroVideoBg) {
+    heroVideoBg.playbackRate = 0.5;
+  }
+
   /* ---------- Mobile menu ---------- */
   var navToggle = document.getElementById("navToggle");
   var mobileMenu = document.getElementById("mobileMenu");
